@@ -1,0 +1,20 @@
+.title {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 0 20px;
+}
+.title input {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+
+}
+.content {
+    margin-top: 20px;
+}
+#con-iframe {
+    margin-top: 20px;
+    width: 100%;
+}
