@@ -24,7 +24,7 @@ class Editor {
         let btnColor = document.querySelector(".set-color");
         let btnBgColor = document.querySelector(".set-bg-color");
         let btnDecoration = document.querySelector(".set-decoration");
-        let btnPicture = document.querySelector(".set-picture");
+        let btnPicture = document.querySelector(".choose-pic");
 
         return {
             btnBold,
@@ -46,7 +46,7 @@ class Editor {
         this.domObj.btnDecoration.addEventListener('click', editStyle.setDecoration.bind(editStyle));
 
         // 图片
-        this.domObj.btnPicture.addEventListener('click', editStyle.setPicture.bind(editStyle));
+        this.domObj.btnPicture.addEventListener('change', editStyle.setPicture.bind(editStyle));
     }
 }
 

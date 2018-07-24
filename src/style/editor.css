@@ -11,9 +11,30 @@
     font-size: 16px;
 
 }
+
 .content {
     margin-top: 20px;
 }
+.menu {
+    display: flex;
+}
+.set-picture{
+    padding: 4px 10px;
+    position: relative;
+    border: 1px solid #999;
+    text-decoration: none;
+    color: #666;
+}
+.choose-pic{
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+
 #con-iframe {
     margin-top: 20px;
     width: 100%;

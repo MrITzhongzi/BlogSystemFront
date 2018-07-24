@@ -15,8 +15,10 @@ class EditorStyle {
         this.iframeObj.contentWindow.document.execCommand("Underline");
     }
 
-    setPicture(){
-        alert("pic");
+    setPicture(e){
+        console.log("change");
+        console.log(document.querySelector(".choose-pic"));
+        console.log(e.currentTarget.files)
     }
 }
 
